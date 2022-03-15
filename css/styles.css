@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+
+#main{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    align-items: center;
+    text-align: center;
+}
+.titulo{
+    transition: ease all .5s;
+    display: inline-flex;
+    margin-bottom: 1vh;
+    font-size: 1.2rem;
+}
+.linhaTeclado{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    transition: ease all .5s;
+}
+.botao{
+    font-weight: 550;
+    width: 5vh;
+    height: 5vh;
+    margin-top: 1vh;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 1vh;
+    border-style: none;
+    box-shadow: -2px 3px 5px rgba(0, 0, 0, 0.137);
+    transition: ease all .5s;
+}
+.botao:hover{
+    cursor: pointer;
+    background-color: #C4C4C4;
+}
+.botao:active {
+    transform: translateY(2px);
+}
+
+.botaoIniciar:active {
+    transform: translateY(4px);
+  }
+.button:hover{
+    cursor: pointer;
+}
+.button:active {
+    transform: translateY(4px);
+}
+.resposta{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    align-items: center;
+    text-align: center;
+}
+#letrasResposta{
+    align-items: center;
+    list-style: none;
+    display: inline-flex;
+}
+.letra{
+    width: 2vh;
+    height: 3.5vh;;
+    text-align: center;
+    font-size: 3.5vh;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-style: solid;
+    border-color: #C4C4C4;
+    border-bottom-width: 2px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    transition: ease all .5s;
+}
+
+.letrasP1{
+    width: 495px;
+    font-size: 15px;
+    color: #d1d1d1;
+    display: inline-flex;
+}
+#respPlay2{
+    position: absolute;
+    visibility: hidden;
+    align-items: center;
+    list-style: none;
+}
+.letraPlay2{
+    align-items: center;
+    list-style: none;
+    display: inline-flex;
+}
+.espaco{
+    width: 1.5vh;
+}
+#letrasErradas{
+    align-items: center;
+    list-style: none;
+    display: inline-flex;
+}
+.erros{
+    transition: ease all .5s;
+    width: 495px;
+    font-size: 20px;
+    color: #d1d1d1;
+    display: inline-flex;
+}
+
+#dica{
+    color: #C4C4C4;
+}
+.forca{
+    margin-top: 1vh;
+}
+
+.bgBlur{
+    filter: blur(5vh);
+    backdrop-filter: blur(15px);
+}
+.svgForca{
+    transition: ease all .8s;
+}
+
+@media (max-width: 550px) {
+    .svgForca{
+        width: 400px;
+        height: auto;
+    }
+    .linhaTeclado{
+        margin-top: 0.6vh;
+        margin-bottom: 0.6vh;
+    }
+    .botao{
+        font-weight: 500;
+        width: 4vh;
+        height: 4vh;
+    }
+    .titulo{
+        margin-bottom: 1vh;
+        font-size: 1rem;
+    }
+    .erros{
+        font-size: 18px;
+        width: 400px;
+    }
+    .letra{
+        font-size: 3vh;
+    }
+}
