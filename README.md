@@ -4,7 +4,8 @@
 ---
 
 Neste jogo foram utilizados ``JavaScript``, ``Html`` e gráficos vetoriais escalonáveis(``svg``). A tela principal do jogo com a forca é um svg, feito no figma e inkscape.
-Que se encontra na pasta: 
+
+Que se encontra na pasta ``Jogo-da-forca-JavaScript/imagens/forca.svg``: 
 
 ``` BASH
    📦Jogo-da-forca-JavaScript
@@ -17,7 +18,7 @@ Que se encontra na pasta:
     ┗ 📜 index.html
 ```
 
-Inserir o código do svg no ``html`` index.html, e foi adicionado class e id as tags do svg para a manipulação via ``javaScript``, como por exemplo deixar partes visíveis/invisíveis ou adicionar textos ao svg.
+Inserir o código do svg no ``html`` index.html, e foi adicionado id as tags do svg para a manipulação via ``javaScript``, como por exemplo deixar partes visíveis/invisíveis ou adicionar textos ao svg.
 
 ---
 
@@ -27,7 +28,10 @@ Para iniciar o jogo clique no botão play na tela ou no console digite ``start()
 
 ### Regras do Jogo!
 
-Cada letra acertada na palavra vale 5 pontos, ao acertar todas as palavras pode da play para a próxima o jogo termina quando o jogador gastar sua 6 tentativas, essas tentativas reiniciam a cada nova palavra, ao da **GameOver** é mostrado o recorde acumulado.
+Cada letra acertada na palavra vale 5 pontos, ao acertar toda a palavras pode da play para a próxima palavra o jogo termina quando o jogador gastar sua 6 tentativas, essas tentativas reiniciam a cada nova palavra, ao da **GameOver** é mostrado o recorde acumulado.
 
+No **multi-jogador** ganhar quem acerta a palavra sozinho, se os dois erraram ou acertaram é considerado um empate.
+
+---
 
 #### ``@author João Paulo``, Link para acessar o site com o projeto no [Jogo da Forca](https://cranky-carson-9f48a0.netlify.app/).
