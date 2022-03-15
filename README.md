@@ -30,7 +30,7 @@ Para iniciar o jogo clique no botão play na tela ou no console digite ``start()
 
 Cada letra acertada na palavra vale 5 pontos, ao acertar toda a palavras pode da play para a próxima palavra o jogo termina quando o jogador gastar sua 6 tentativas, essas tentativas reiniciam a cada nova palavra, ao da **GameOver** é mostrado o recorde acumulado.
 
-No **multi-jogador** ganhar quem acerta a palavra sozinho, se os dois erraram ou acertaram é considerado um empate.
+No **multi-jogador** ganhar quem acerta a palavra sozinho, se os dois erraram ou acertaram é considerado um empate. A cada jogada neste modo tem se duas palavras com a mesma quantidade de letras e mesma dicas, mas as duas são palavras diferentes.
 
 ---
 
