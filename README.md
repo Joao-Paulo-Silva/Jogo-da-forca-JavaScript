@@ -7,7 +7,7 @@ Neste jogo foram utilizados ``JavaScript``, ``Html`` e gráficos vetoriais escal
 Que se encontra na pasta: 
 
 ``` BASH
-	📦Jogo-da-forca
+   📦Jogo-da-forca-JavaScript
     ┣ 📁css 
     ┣ 📂imagens
     ┣ ┣ 🖼 iconPag.svg
@@ -27,4 +27,7 @@ Para iniciar o jogo clique no botão play na tela ou no console digite ``start()
 
 ### Regras do Jogo!
 
-Cada letra acertada na palavra vale 5 pontos, ao acertar todas as palavras pode da play para a próxima o jogo termina quando o jogador gastar sua 6 tentativas, essas tentativas reiniciam a cada nova palavra, ao da **GameOver** é mostrado o recorde acumulado.  
+Cada letra acertada na palavra vale 5 pontos, ao acertar todas as palavras pode da play para a próxima o jogo termina quando o jogador gastar sua 6 tentativas, essas tentativas reiniciam a cada nova palavra, ao da **GameOver** é mostrado o recorde acumulado.
+
+
+#### ``@author João Paulo``, Link para acessar o site com o projeto no [Jogo da Forca](https://cranky-carson-9f48a0.netlify.app/).
